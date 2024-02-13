@@ -1,0 +1,16 @@
+{
+    "name": "hukimato/dumb-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Hukimato\\DumbComposerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniil Aleksandrov",
+            "email": "danay2211@gmail.com"
+        }
+    ],
+    "require": {}
+}
