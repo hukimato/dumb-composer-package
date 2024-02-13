@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Hukimato\DumbComposerPackage;
 
 class DumbClass
 {
-    public static function sayHello(): void
+    public static function sayHello(string $name): void
     {
-        echo "Hello from " . self::class;
+        echo "Hello $name from " . self::class . PHP_EOL;
     }
 }
