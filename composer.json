@@ -6,11 +6,22 @@
             "Hukimato\\DumbComposerPackage\\": "src/"
         }
     },
+    "require": {
+        "php": ">=7.1"
+    },
     "authors": [
         {
             "name": "Daniil Aleksandrov",
             "email": "danay2211@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpcompatibility/php-compatibility": "*",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
 }
